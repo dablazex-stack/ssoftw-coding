@@ -7,16 +7,16 @@ class Person {
      int id;
  public :
                                                       //Parent-getters
-     virtual string getName(){
+     string getName(){
         return this->name;
      }
-     virtual string getPassword(){
+     string getPassword(){
         return this->password;
      }
-     virtual int getId(){
+     int getId(){
         return this->id;
      }
-     virtual void Printinfo(){
+     void Printinfo(){
      }
                                                      //Parent-setters
      void setName(string n){
